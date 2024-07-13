@@ -36,19 +36,18 @@ public class TarefaService {
         tarefaRepository.deleteById(id);
         
 
-    }
-
 
     }
 
-
-
-    }
-
-
-
-
-
-    }
-    
 }
+
+
+
+    
+
+
+
+
+
+
+

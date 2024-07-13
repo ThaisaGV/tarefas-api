@@ -24,11 +24,12 @@ public class UsuarioService {
 
     public List<Usuario> listarUsuarios() {
         return usuarioRepository.findAll();
-
+    }
     
     public Optional<Usuario> buscarUsuario(Long id) {
         return usuarioRepository.findById(id);
 
+    }
 
     public void deletarUsuario(Long id) {
         usuarioRepository.deleteById(id);
@@ -36,6 +37,6 @@ public class UsuarioService {
     }
 
 
-    }
+  
     
 }

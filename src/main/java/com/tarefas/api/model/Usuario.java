@@ -1,4 +1,4 @@
-package com.tarefas.model;
+package com.tarefas.api.model;
 
 import java.time.LocalDate;
 
@@ -37,3 +37,4 @@ public class Usuario {
     private LocalDate dataNascimento;
     
 }
+
